@@ -1,0 +1,89 @@
+
+
+.med_container {
+margin: 0 2rem;
+border-radius: 0.6rem;
+    position: fixed;
+    z-index: 1000;
+    bottom: 10%;
+    background-color: black;
+    left: 7.5%;
+    color: white;
+
+}
+
+.top_list {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 1rem;
+}
+
+.top_list li {
+    display: flex;
+}
+
+.top_list li div {
+    margin: 0 0.25rem;
+}
+
+.blue_container {
+   padding: 1rem;
+   margin: 1rem 0;
+}
+
+.drug_header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid white;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+.drug_name_svg, .drug_calender_svg, .comments_svg{
+    height: 2rem;
+    min-width: 1rem;
+}
+
+.drug_calender_svg {
+    min-width: 1rem;
+}
+
+
+
+.info_buttons_item {
+    display: flex;
+    margin-bottom: 1rem;
+}
+
+.info_buttons_item > div:last-child{
+   margin-left: 0.5rem; 
+}
+
+.action_buttons {
+    display: flex;
+    justify-content: space-around;
+    margin: 1rem 0;
+}
+
+.action_buttons_item {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    text-align: center;
+ 
+}
+
+.check_or_skip {
+    padding: 1rem 1.5rem;
+    border-radius: 60%;
+    font-size: 1.3rem;
+    margin-bottom: 0.25rem;
+}
+
+.svgsvg{
+    height: 1rem;
+    width: 1rem;
+}

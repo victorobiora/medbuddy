@@ -1,0 +1,50 @@
+.container {
+    display: flex;
+    padding: 1rem;
+    border-radius: 0.8rem;
+    background-color: #C2DBFF;
+    position: relative;
+    margin: 1rem 0;
+}
+
+.patient_image_container{
+    display: flex;
+}
+
+.patient_image {
+    margin-right: 0.5rem;
+    width: 4rem;
+    height: 4rem;
+    position: relative;
+    top: 0.5rem;
+}
+
+.textContainer div:first-child{
+    margin-top: 0.5rem;
+}
+
+.textContainer h4 {
+    line-height: 0.5rem;
+}
+
+.textContainer p {
+    margin-top: 0.25rem;
+}
+
+.click {
+   white-space: nowrap;
+   font-size: 0.8rem;
+   margin-top: 1.5rem;
+}
+
+.go_icon {
+    font-size: 1.2rem;
+    background-color: #066DFE;
+    color: white;
+    padding: 0.1rem 0.5rem;
+    height: 2rem;
+    margin-top: 7%;
+    position: absolute;
+    border-radius: 0.5rem;
+    right: 4%;
+}

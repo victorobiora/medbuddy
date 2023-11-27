@@ -1,0 +1,75 @@
+.container {
+    width: 80%;
+    height: 100%;
+    background-color: #066DFE;
+    z-index: 200;
+    border-radius: 0rem 3rem 0rem 0rem;
+    position: fixed;
+    top: 0;
+    left: 0;
+    color: white;
+}
+
+.hamburger_div {
+    padding: 2rem;
+    height: 100%;
+}
+
+.logo {
+    height: 2rem;
+    margin: 2rem 0;
+}
+
+.invite {
+    color: white;
+    display: flex;
+    margin: 1rem 0;
+}
+
+.invite div, .logOut {
+    display: flex;
+    align-items: center;
+}
+
+.settings_heading {
+    color: white;
+  
+}
+
+.settings_heading div:not(:first-child){
+    display: flex;
+    width: 100%;
+}
+
+.patients_heading, .sub_settings {
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid white;
+    margin-bottom: 0.5rem;
+    color: white;
+}
+
+ .shareApp {
+    height: 3rem;
+    width: 3rem;
+    margin: 0 1rem;
+
+}
+
+.iv {
+    height: 2rem;
+    width: 2rem;
+    margin: 0 1rem;   
+}
+
+.log_out {
+    position: absolute;
+    bottom: 2rem;
+    display: flex;
+    color: white;
+}
+
+
+.sideBar_text {
+    display: flex;
+    align-items: center;
+}

@@ -1,0 +1,78 @@
+.container {
+  height: 100%;
+  position: relative;
+}
+
+.hospital_image {
+  height: 70%;
+  position: relative;
+}
+
+.hospital_image svg {
+  position: relative;
+  z-index: 2;
+}
+
+.shadow {
+  background: linear-gradient(
+    to bottom,
+    transparent 25%,
+    rgb(255, 255, 255)
+  );
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 4;
+  position: absolute;
+}
+
+.med_name {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  position: absolute;
+  z-index: 10;
+  top: 50%;
+  height: 5rem;
+}
+
+
+
+.black {
+  color: #1f1f1f;
+}
+
+.get_started,
+.logIn_prompt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.get_started a {
+  display: block;
+  background-color: #066dfe;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0.6rem;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.logIn_prompt {
+  height: 0.9rem;
+  margin-top: 1rem;
+  color: #1f1f1f;
+  font-size: 1.1rem;
+
+}
+
+.logIn_prompt a {
+    text-decoration: underline;
+    font-family: Poppins-Bold;
+    display: inline-block;
+    margin: 0 0.4rem;
+ 
+}

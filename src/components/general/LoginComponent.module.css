@@ -1,0 +1,49 @@
+.home_svg {
+    width: 100%;
+    height: 9rem;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 3rem;
+}
+
+.home_svg div {
+    height: 100%;
+    width: 60%;
+}
+
+.login_prompt {
+    display: flex;
+    font-size: 1.3rem;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+.loginButton{
+    position: absolute;
+    bottom: 3rem;
+}
+
+.get_started {
+    font-size: 0.8rem;
+    text-align: right;
+    color: red;
+}
+
+.get_started a {
+    text-decoration: underline;
+}
+
+.back {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .back_button {
+    height: 100%;
+    width: 10%;
+    display: block;
+  }
+  

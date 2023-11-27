@@ -1,0 +1,14 @@
+
+
+.history_container_text {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+
+
+.history_container_text a {
+    text-decoration: underline;
+    color: #4894FE;
+
+}

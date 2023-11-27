@@ -1,0 +1,32 @@
+.container {
+    height: 5rem;
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 3rem 3rem 0 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.tabsList {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+
+.tabsList > * {
+    text-align: center;
+}
+
+.tab_name {
+    font-size: 0.7rem;
+}
+
+.tab_svg {
+    height: 2rem;
+    width: 100%;
+}
+
+.activeColor {
+    color: #066DFE;
+}

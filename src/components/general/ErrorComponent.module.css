@@ -1,0 +1,63 @@
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: 100%;
+    position: relative;
+  }
+
+  .container_inner {
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.container_inner h3 {
+    text-align: center;
+}
+  
+  .back {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .back_button {
+    height: 100%;
+    width: 10%;
+    display: block;
+  }
+  
+  .medBuddyLogo {
+        height: 10rem;
+        width: 10rem;
+  }
+
+  .errorSvg{
+    height: 15rem;
+    width: 15rem;
+  }
+
+  .get_started {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.get_started div {
+  display: block;
+  background-color: #066dfe;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0.6rem;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+}

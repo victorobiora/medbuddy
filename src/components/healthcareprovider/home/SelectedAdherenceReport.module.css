@@ -1,0 +1,77 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: 100%;
+    position: relative;
+  }
+  
+  .back {
+    width: 100%;
+    height: 10%;
+    display: flex;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid #C7C7C7;
+    margin-bottom: 1rem;
+  }
+  
+  .back_button {
+    height: 100%;
+    width: 10%;
+    display: block;
+  }
+  
+  .back h2 {
+    align-self: center;
+    text-align: center;
+    line-height: 1rem;
+    width: 90%;
+    font-size: 1.4rem;
+  }
+
+  
+  .patientName, .title {
+    text-align: center;
+    width: 80%;
+    display: flex;
+    align-self: center;
+    justify-content: center;
+  }
+
+  .patientName {
+    margin-bottom: 4rem;
+  }
+
+  .patientName div {
+    margin: 0 0.5rem;
+    height: 2rem;
+    width: 2rem;
+
+  }
+
+  .patientName div img {
+    border-radius: 50%;
+  }
+
+  .adherence_item {
+    margin: 1rem 0;
+  }
+
+  .adherence_item:hover {
+    border: 3px solid #066DFE;
+    border-radius: 1.4rem;
+  }
+
+
+  .chatIcon {
+    position: absolute;
+    bottom: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    right: 2rem;
+  }
+
+  .chat_box {
+    height: 3rem;
+    width: 3rem;
+  }

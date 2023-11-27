@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    height: 100%;
+  }
+
+  .header_bar {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+  }
+
+  .header_item {
+    padding: 0.8rem 3.7rem;
+    border-radius: 0.8rem;
+    margin: 0 0.5rem;
+    background-color: #E9E9E9;
+    color: #8F8F8F;
+  }
+
+
+  .active_class, .header_item:hover {
+    background: #066DFE;
+    color: #ffffff;
+  }

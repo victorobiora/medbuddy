@@ -1,0 +1,209 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 0.1rem 2rem;
+  height: 100%;
+  position: relative;
+}
+
+.back {
+  width: 100%;
+  height: 10%;
+  margin-bottom: 1rem;
+}
+
+.back_button {
+  height: 100%;
+  width: 10%;
+  display: block;
+}
+
+.signup_container {
+  color: #066dfe;
+  display: flex;
+  justify-content: center;
+  font-size: 1.3rem;
+}
+
+.form {
+  height: 70%;
+  width: 100%;
+}
+
+.form_getGoals {
+  height: 93%;
+}
+
+.svg {
+  height: 3rem;
+  width: 3rem;
+  margin: 1rem 0;
+}
+
+.form h1 {
+  font-family: Poppins-Bold;
+  font-size: 1.4rem;
+  line-height: 2rem;
+}
+
+.percent_svg {
+  margin: 1rem 0;
+  margin-bottom: 0.5rem;
+}
+
+.warning_svg {
+  height: 1.5rem;
+  width: 100%;
+}
+
+.form_input {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+.form_input > * {
+  margin: 0.25rem 0;
+}
+
+.form_input label {
+  font-size: 1.1rem;
+}
+
+.form_input input,
+.option {
+  padding: 0.7rem 0.5rem;
+  color: #575757;
+  border-radius: 1rem;
+  font-size: 1.1rem;
+  border-color: transparent;
+  background-color: #dcdada;
+  margin-bottom: 1rem;
+}
+
+.form_input label {
+  font-family: Poppins-Bold;
+}
+
+.form_input input[type="text"]:focus, .form_input input[type="email"]:focus {
+  outline: none;
+  border-color: #066dfe;
+}
+
+.option:hover,
+.picked_option {
+  background-color: #066dfe;
+  color: #e9e9e9;
+}
+
+.form_input .pick_gender {
+  list-style: none;
+
+  font-size: 1.2rem;
+}
+
+.pick_gender li {
+  margin: 0.5rem 0;
+}
+
+.pick_gender li input {
+  margin-right: 0.7rem;
+}
+
+.circular_checkbox {
+  position: relative;
+  display: inline-block;
+  padding-left: 30px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.circular_checkbox input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+}
+
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border: 2px solid #333;
+  border-radius: 50%;
+}
+
+.circular_checkbox input:checked + .checkmark {
+  background-color: #2196f3;
+  border: 2px solid #2196f3;
+}
+
+.goal_width {
+  width: 100%;
+  position: relative;
+  margin: 2rem 0;
+}
+
+.goal_width_option {
+  position: absolute;
+  width: 60%;
+  background-color: #c2dbff;
+  color: #066dfe;
+  padding: 0.35rem;
+  border-radius: 1rem;
+  text-align: center;
+}
+
+
+.goal_width_option_checked {
+  background-color: #066dfe;
+  color: #c2dbff;
+}
+
+.next_question {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.DatePicker {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.error_message {
+  color: red;
+}
+
+.loading_spinner {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  display: block;
+  background-color: #dcdada;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0.6rem;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.valid_button {
+  background-color: #066dfe;
+  color: white;
+  cursor: pointer;
+}
+
+.calender_design {
+  width: 100%;
+  font-family: Poppins-Medium;
+  text-align: center;
+}

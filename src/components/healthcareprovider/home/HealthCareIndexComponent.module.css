@@ -1,0 +1,49 @@
+.container {
+    height: 100%;
+    padding: 2rem;
+  }
+  
+  .container > *:not(:first-child) {
+      margin-bottom: 2rem;
+      position: relative;
+      z-index: 100;
+  }
+
+  .hamBurger {
+    margin-right: 1rem;
+    height: 2rem;
+    margin-top: 1rem;
+    width: 2rem;
+  }
+  
+  .welcome_container {
+    position: relative;
+    display: flex;
+    width: 100%;
+    list-style: none;
+  }
+  
+  .welcome_text {
+    padding-top: 3%;
+    font-size: 1rem;
+    color: #575757;
+  }
+  
+  .welcome_name{
+        font-size: 1.5rem;
+        color: #066DFE;
+        
+  }
+  
+  .notifications {
+    position: absolute;
+    top: 20%;
+    right: 0;
+    height: 2rem;
+    width: 2rem;
+  }
+
+  .my_patients {
+    margin-top: 2rem;
+  }
+  

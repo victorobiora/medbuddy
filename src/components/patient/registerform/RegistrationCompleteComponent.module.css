@@ -1,0 +1,81 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  height: 100%;
+}
+
+.back {
+  width: 100%;
+  height: 10%;
+}
+
+.back_button {
+  height: 100%;
+  width: 10%;
+  display: block;
+}
+
+
+.welcome_details {
+    height: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 6rem;
+}
+
+.welcome_image {
+     width: 100%;
+     height: 75%;
+    
+}
+
+
+.welcome_text {
+    text-align: center;
+    font-size: 1.1rem;
+}
+
+.welcome_text h3 {
+    margin-bottom: 0.5rem;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    font-family: Poppins-Bold;
+}
+
+.add_meds,
+.skip_prompt {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.add_meds a {
+  display: block;
+  background-color: #066dfe;
+  padding: 1rem;
+  width: 70%;
+  border-radius: 0.6rem;
+  color: white;
+  text-align: center;
+  font-size: 1.1rem;
+}
+
+.skip_prompt {
+  height: 0.9rem;
+  margin-top: 1rem;
+  color: #1f1f1f;
+  font-size: 1.1rem;
+
+}
+
+.skip_prompt a {
+    text-decoration: underline;
+    font-family: Poppins-Bold;
+    display: inline-block;
+    margin: 0 0.4rem;
+ 
+}
+
+ 

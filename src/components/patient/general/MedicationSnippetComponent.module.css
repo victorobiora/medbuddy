@@ -1,0 +1,47 @@
+.med_container_text {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  font-family: Poppins-Bold;
+  font-size: 1.2rem;
+}
+
+.med_card {
+  border-radius: 0.65rem;
+  padding: 1rem;
+  width: 100%;
+  display: flex;
+  color: white;
+  margin: 1rem 0;
+  background-color: #066dfe;
+}
+
+.red_pill {
+  background-color: #e01a00;
+}
+
+.drug_details {
+  margin: 0 1rem;
+}
+
+.drug_image {
+  border-right: 2px solid white;
+  display: flex;
+  align-items: center;
+}
+
+.drug_image div {
+  height: 3rem;
+  width: 3rem;
+  margin: 0 0.25rem;
+}
+
+.drug_name {
+  margin-bottom: 0.5rem;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+
+.drug_details text {
+  font-size: 0.85rem;
+}
